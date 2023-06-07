@@ -1,0 +1,22 @@
+{
+  "Entries": {
+    "some_api_health_check": {
+      "Data": {},
+      "Description": "Access to business critical emojis is A-OK",
+      "Duration": "00:00:00.0114349",
+      "Exception": null,
+      "Status": "Healthy",
+      "Tags": []
+    },
+    "rabbitmq": {
+      "Data": {},
+      "Description": null,
+      "Duration": "00:00:00.0091420",
+      "Exception": null,
+      "Status": "Healthy",
+      "Tags": []
+    }
+  },
+  "Status": "Healthy",
+  "TotalDuration": "00:00:00.0739597"
+}

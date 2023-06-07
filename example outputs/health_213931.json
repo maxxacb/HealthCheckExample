@@ -1,0 +1,35 @@
+{
+  "Entries": {
+    "some_api_health_check": {
+      "Data": {},
+      "Description": "Something went catastrophically wrong with SomeAPI",
+      "Duration": "00:00:04.1297603",
+      "Exception": {
+        "ClassName": "System.TimeoutException",
+        "Message": "The request timed out",
+        "Data": null,
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": "   at HealthCheckExample.FakeHttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken) in /path/HealthCheckExample/HealthCheckExample/FakeHttpClientHandler.cs:line 25\n   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<>n__0(HttpRequestMessage request, CancellationToken cancellationToken)\n   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendAsync>g__Core|5_0(HttpRequestMessage request, CancellationToken cancellationToken)\n   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendAsync>g__Core|5_0(HttpRequestMessage request, CancellationToken cancellationToken)\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\n   at HealthCheckExample.HealthChecks.SomeApiHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /path/HealthCheckExample/HealthCheckExample/HealthChecks/SomeApiHealthCheck.cs:line 20",
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233083,
+        "Source": "HealthCheckExample",
+        "WatsonBuckets": null
+      },
+      "Status": "Unhealthy",
+      "Tags": []
+    },
+    "rabbitmq": {
+      "Data": {},
+      "Description": null,
+      "Duration": "00:00:04.2264897",
+      "Exception": null,
+      "Status": "Healthy",
+      "Tags": []
+    }
+  },
+  "Status": "Unhealthy",
+  "TotalDuration": "00:00:04.2415483"
+}

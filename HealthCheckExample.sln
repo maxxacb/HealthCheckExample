@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheckExample", "HealthCheckExample\HealthCheckExample.csproj", "{0A89A045-8C52-401C-8C90-98D12A586A96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example outputs", "example outputs", "{0BBFA76D-32DC-46DA-AF60-5535527DBA51}"
+	ProjectSection(SolutionItems) = preProject
+		example outputs\health_213931.json = example outputs\health_213931.json
+		example outputs\health_214027.json = example outputs\health_214027.json
+		example outputs\health_214127.json = example outputs\health_214127.json
+		example outputs\health_214227.json = example outputs\health_214227.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A89A045-8C52-401C-8C90-98D12A586A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A89A045-8C52-401C-8C90-98D12A586A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A89A045-8C52-401C-8C90-98D12A586A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A89A045-8C52-401C-8C90-98D12A586A96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

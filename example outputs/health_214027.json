@@ -1,0 +1,22 @@
+{
+  "Entries": {
+    "some_api_health_check": {
+      "Data": {},
+      "Description": "Cannot authenticate to SomeAPI",
+      "Duration": "00:00:00.0171088",
+      "Exception": null,
+      "Status": "Unhealthy",
+      "Tags": []
+    },
+    "rabbitmq": {
+      "Data": {},
+      "Description": null,
+      "Duration": "00:00:00.0418460",
+      "Exception": null,
+      "Status": "Healthy",
+      "Tags": []
+    }
+  },
+  "Status": "Unhealthy",
+  "TotalDuration": "00:00:00.0615687"
+}
